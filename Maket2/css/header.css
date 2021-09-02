@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Geometria;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333333;
+}
+
+#wrapper {
+	margin: 0 auto;
+    width: 100%;
+	max-width: 1440px;
+	border: 1px solid #333333;
+	background-color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.icon {
+    width: 50px;
+    height: 64px;
+    background: url(../img/icon.png);
+    background-size: cover;
+}
+
+.header_phone {
+    width: 142px;
+    height: 70px;
+}
+
+.phone_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 25px;
+    margin: 5px 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 640px;
+    height: 23px;
+    
+}
+
+.nav_link {
+    text-decoration: none;
+}
+
+input {
+    width: 60px;
+    height: 23px;
+    border-bottom: 1px dashed #333333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+ button {
+    width: 150px;
+    height: 43px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.container1 {
+    position: relative;
+    width: 1380px;
+    height: 775px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.text1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.text2 {
+    width: 450px;
+    height: 40px;
+    color: #828282;
+    margin: 10px 0px;
+}
+
+.chat {
+    position: absolute;
+    width: 450px;
+    height: 760px;
+    top: 10px;
+    right: 0px;
+    background: #E0E0E0;
+}
+
+.chat_1 {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    left: 200px;
+    top: 150px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sertificat{
+    width: 190px;
+    height: 65px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 20px 0px;
+    border-bottom: 2px solid #FFDB2D;  
+}
+
+.sertificat_bot{
+    width: 190px;
+    height: 65px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    position: absolute;
+    top: 570px;
+    left: 10px; 
+    border-bottom: 2px solid #FFDB2D;  
+}
+
+.info_box1{
+    width: 680px;
+    position: absolute;
+    left: 220px;
+    top: 120px;   
+}
+
+.info_box2{
+    width: 680px;
+    position: absolute;
+    left: 220px;
+    top: 0px;
+    z-index: 20;
+}
+
+.info_box3{
+    width: 680px;
+    position: absolute;
+    top: 560px;
+    left: 220px;
+    z-index: 10;
+}
+
+details {
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 26px 30px;
+    cursor: pointer;
+}
+
+
+.box1 {
+    background-color: #F4F4F4;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.container2 {
+    position: relative;
+    width: 1380px;
+    height: 1200px;
+    margin-left: 30px;
+}
+
+.rocks {
+    position: absolute;
+    width: 943px;
+    height: 1120px;
+    top: 80px;
+    right: -30px;
+    background: url(../img/rocks.png);
+}

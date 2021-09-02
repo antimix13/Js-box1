@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Geometria;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333333;
+}
+	/* =============== FOOTER =============== */
+
+.footer {
+	position: relative;
+	width: 1440px;
+	height: 800px;
+	left: 0px;
+	background-color: #333333;
+}
+
+.sidebar {
+	padding: 0px;
+	position: absolute;
+	width: 565px;
+	height: 645px;
+	left: 30px;
+	top: 80px;
+}
+
+.section1 {
+	position: static;
+	width: 563px;
+	height: 80px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 38px;
+	color: #E0E0E0;
+}
+
+.section2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: static;
+	width: 566px;
+	height: 324px;
+
+}
+
+.section2_1, .section2_2,
+.section2_3, .section2_4 {
+	display: flex;
+	flex-direction: column;
+	position: static;
+	width: 566px;
+	height: 51px;
+	margin: 20px 0px;
+}
+
+.otdel {
+	color: #E0E0E0;
+}
+
+.phone {
+	width: 140px;
+	height: 21px;
+	margin: 5px 0px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.phone1, .phone2 {
+	display: flex;
+	align-items: flex-start;
+	height: 21px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.section3 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 555px;
+	height: 165px;
+} 
+
+.section3_1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 97px;
+	height: 156px;
+}
+
+.section3_2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 325px;
+	height: 103px;
+}
+
+
+
+.contacts {
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.map {
+	position: absolute;
+	width: 797px;
+	height: 643px;
+	background: url(../img/map.png);
+	border: 2px solid #828282;
+	border-radius: 12px;
+	left: 600px;
+   top: 10px;
+}
+
+.sign {
+	position: absolute;
+	width: 33px;
+	height: 46px;
+	right: 240px;
+	top: 270px;
+	background: url(../img/sign.png);
+	z-index: 100;
+
+}
+
+	/* =============== RIGTS =============== */
+
+.rigts {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1440;
+	height: 40px;
+	left: 0px;
+	background: #F4F4F4;
+	padding-left: 30px;
+}
+
+.rigts_left {
+	width: 213px;
+	height: 21px;
+}
+
+.rigts_right {
+	width: 248px;
+	height: 21px;
+}
